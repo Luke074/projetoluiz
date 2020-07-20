@@ -1,0 +1,160 @@
+/* Reset do HTML */
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#top, #middle{
+    width: 100%;
+    height: 300px;
+}
+
+#middle, #bottom{
+    height: 270px;
+}
+
+h1{
+    font-family: arial;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    width: inherit;
+    height: 30px;
+    background-color: #000000;   
+}
+
+h2, h3, h4, h5, h6{
+    font-family: arial;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    width: 500px;
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+h2:hover{
+    background-image: url(../imagens/arquitetura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    transition: 2s;
+    cursor: pointer;
+
+}
+
+h3:hover{
+    background-image: url(../imagens/codigofechado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h4:hover{
+    background-image: url(../imagens/codigoaberto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    transition: 1s;
+    cursor: pointer;  
+}
+
+h5:hover{
+    background-image: url(../imagens/editortexto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    transition: 1s;
+    cursor: pointer;  
+}
+
+h6:hover{
+    background-image: url(../imagens/planilhaseletronicas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    transition: 1s;
+    cursor: pointer;  
+}
+
+
+#arquiteturaCodigoAberto, #fechadoEditor, #planilhasEletronicas{
+    width: 1300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arquitetura, #codigoAberto, #fechado, #editor, #planilhas{
+    width: 645px;
+    height: 250px;
+    background-color: black;
+    border-radius: 60px;
+    padding-top: 35px;
+    margin-top: 10px;
+}
+
+#arquitetura, #fechado{
+    float: left;
+    margin-right: 10px;
+}
+
+#codigoAberto, #editor{
+    float: right;
+}
+
+#planilhas{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Seção Rodapé */
+#rodape{
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+}
+
+#desenvolvedores{
+    font-family: arial;
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 1.5;
+    width: 1300px;
+    height: inherit;
+    text-align: justify;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link:active{
+    color: #ffffff;
+}
+.link:visited{
+    color: #ffffff;
+}
+.link:link{
+    color: #ffffff;
+}
+.link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

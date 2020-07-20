@@ -1,0 +1,287 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Seção do Header */
+#header{
+    width:100%;
+    height:200px;
+    background-color: #000000;
+}
+
+h1{
+    font-family: arial;
+    font-size: 28px;
+    color: #ffffff;
+    width: 1400px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lista{
+    font-family: arial;
+    font-size: 30px;
+}
+.listaConteudo{
+    font-family: timesNewRoman;
+    font-size: 28px;
+}
+
+#menu{
+    width:1400px;
+    height:170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuItens1, #menuItens2, #menuItens3, #menuItens4, #menuItens5, #menuItens6 {
+    width:228px;
+    height:100px;
+    float: left;
+    margin-top: 35px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: none;
+    font-family: arial;
+    font-size: 23px;
+    list-style: none;
+    color: #ffffff;
+}
+
+#menuItens1, #menuItens5, #menuItens6{
+    padding-top:35px;
+}
+
+#menuitens2{
+    padding-top:10px;
+}
+
+
+#menuItens1:hover, #menuItens2:hover, #menuItens3:hover, #menuItens4:hover, #menuItens5:hover, #menuItens6:hover {
+    border-radius:40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#menuItens1:hover{
+    background-image: url(../imagens/home.jpg);
+
+}
+
+#menuItens2:hover{
+    background-image: url(../imagens/apple.jpg);
+}
+
+#menuItens3:hover{
+    background-image: url(../imagens/microsoft.jpg); 
+}
+
+
+#menuItens4:hover{
+    background-image: url(../imagens/linux.jpg); 
+}
+
+#menuItens5:hover{
+    background-image: url(../imagens/atom.jpg);
+}
+
+#menuItens6:hover{
+    background-image: url(../imagens/excel.jpg);
+}
+
+#CaixaPrincipal{
+     width: 100%;
+    height: 1000px;
+}
+
+/* Seção Introdução à Arquitetura dos Sistemas Operacionais */
+
+#conteudoIntroducao{
+    width: 100%;
+    height: 800px;
+}
+
+#introducao{
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imagens/linu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h2{
+    font-size: 32px;
+    font-family: timesNewRoman;
+    text-transform: uppercase;
+    width: 1400px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+p{
+    font-family: timesNewRoman;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+/* Seção de conteudo */
+
+#caixaDaNavegacao, #caixaDaExclusaoDiretorios, #caixaDaRenomeacao, #CaixaAreaDeTrabalho,  #caixaDeGerenciamento{
+    width: 100%;
+    height: 1100px;
+}
+
+
+#navegacao, #ExclusaoDiretorios, #renomeacao, #copiaDeArquivos , #edicao, #Desktop, #Config, #Acessorios, #gerencimaneto{
+    width: 1400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+# caixaDosNiveis{
+    width: 100%;
+    height: 1300px;
+}
+#caixaDaRenomeacao{
+    width: 100%;
+    height: 900px;
+}
+#caixaEdicao{
+    width: 100%;
+    height: 1200px;
+}
+#Niveis {
+    width: 1400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+#CaixaConfig{
+    width: 100%;
+    height: 1000px;
+}
+#movimentacao{
+    width: 1400px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+#caixaPacotes{
+    width: 100%;
+    height: 2500px;
+}
+#Pacotes{
+    width: 1400px;
+    height: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.imagens{
+    width: 800px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.imagensSecundarias{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.imagensDesmonstrativa{
+    width: 700px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.imagengrande{
+    width: 900px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+
+}
+.imagens img, .imagengrande img {
+    width: inherit;
+    height: inherit;
+}
+
+
+/* Seção Entrada de Dados */
+#caixaDaExclusaoDiretorios{
+
+    height: 1100px;
+}
+
+#entradaDados{
+    
+    height: 435px;
+}
+
+/* Seção Fórmulas Básicas */
+#caixaDaRenomeacao{
+    
+    height: 1600px;
+}
+
+/* Seção Funções */
+#caixaCopiaDeDiretorios{
+  
+    height: 700px;
+}
+
+
+
+/* Seção Rodapé */
+#rodape{
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+}
+
+#desenvolvedores{
+    font-family: arial;
+    font-size: 21px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.5;
+    width: 1400px;
+    height: inherit;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link:active{
+    color: #ffffff;
+}
+.link:visited{
+    color: #ffffff;
+}
+.link:link{
+    color: #ffffff;
+}
+.link{
+    text-decoration: none;
+}
+

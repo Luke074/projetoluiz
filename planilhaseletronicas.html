@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <meta charset - "utf-8">
+            <link rel = "stylesheet" type = "text/css" href="CSS/planilhaseletronicas.css">
+                <title>
+                    Planilhas Eletrônicas
+                </title>
+    </head>
+    
+    <body>
+        <!-- Seção do Header -->
+        <div id = "header">
+            <h1>
+                SENAI - JANDIRA
+            </h1>
+            <ul id = "menu"> 
+                <li id= "menuItens1"><a class = link href ="index.html">Home</a></li>
+                <li id= "menuItens2"> <a class =link href= "arquiteturasistemasoperacionais.html">Arquitetura dos Sistemas Operacionais</a></li>
+                <li id= "menuItens3"> <a class =link href= "sistemaOperacionalCodigoFechado.html">Sistema Operacional Código Fechado</a></li>
+                <li id= "menuItens4"> <a class =link href= "SistemaOperacionalCodigoAberto.html">Sistema Operacional Código Aberto</a></li>
+                <li id= "menuItens5"> <a class =link href= "EditorDeTexto.html">Editor de Texto</a></li>
+                <li id= "menuItens6"> <a class=link href="planilhaseletronicas.html">Planilhas Eletrônicas</a></li>
+            </ul>
+        </div>
+        
+        <!-- Seção Introdução à Planilhas Eletrônicas -->
+        <div id = "conteudoIntroducao">
+            <div id = "introducao">
+                <h2>
+                    Introdução à Planilhas Eletrônicas
+                </h2>
+                <p>
+                    Planilhas eletrônicas são softwares que usam tabelas formadas por grades de linhas e colunas. Ao ser alimentado com informações de escolha do usuário, essas tabelas podem realizar cálculos ou apresentações desses dados de diversas formas.        
+                </p>
+                
+                <p>
+                    Exemplos de algumas planilhas eletrônicas disponíveis no mercado:
+                </p>
+                
+                <ol class = "lista">
+                    <li class = "objetosListas"> Planilhas Google; </li>
+                    <li class = "objetosListas"> Numbers; </li>
+                    <li class = "objetosListas"> Quip; </li>
+                    <li class = "objetosListas"> Excel. </li>
+                </ol>
+                
+                <p>
+                    Apesar da variedade existente de planilhas eletrônicas, a mais usada é o Excel, fornecida pela empresa Microsoft, disponível entre os programas do Pacote Office.
+                </p>
+                
+                <p>
+                    Sendo o Excel o programa mais usado para esse tipo de objetivo, iremos apresentar aqui um tutorial para a familiarização com o programa, através de conceitos básicos para a criação de uma planilha. 
+                </p>
+                
+                <p>
+                    O Excel está disponível para assinantes do pacote Microsoft 365, ele pode ser baixado e instalado no computador ou pode ser usado “online” através de qualquer navegador de internet, iremos usar aqui a versão 2013 do Excel para o tutorial.
+                </p>
+            </div>
+        </div>
+        <!-- Seção Criação De Planilhas -->
+        <div id = "criacao">
+            <div id = "criacaoPlanilhas">                
+                <h2>
+                    Criação De Planilhas
+                </h2>
+                <p>
+                    Ao abrir o software e criar uma “pasta de trabalho em branco”, irá aparecer a página inicial com a grade de linhas e colunas vazias, pronto para começar a planilha.
+                </p>
+                    
+                <p>
+                    Destacado em cores estão as ferramentas básicas para começar a entender e trabalhar com o Excel:
+                </p>
+                <ol class = "lista">
+                    <li class = "objetosListas"> Amarelo: faixa de opções onde estão disponíveis as principais ferramentas; </li>
+                    <li class = "objetosListas"> Vermelho: linhas da grade dispostas em ordem numérica (1,2,3,4,5...); </li>
+                    <li class = "objetosListas"> Preto: colunas da grade dispostas em ordem alfabética (A, B, C, D, E...); </li>
+                    <li class = "objetosListas"> Verde: célula.</li>
+                </ol>
+            </div>
+                
+            <div class = "imagens">
+                <img src = "imagens/paginaInicial.jpg">
+            </div>      
+        </div>
+        <!-- Seção Entrada de Dados -->
+        <div id = "entrada">
+            <div id = "entradaDados">
+                <h2>
+                    Entrada De Dados
+                </h2>
+                
+                <p>
+                    Para começarmos a entender e aplicar conceitos iniciais do Excel, vamos criar uma simples tabela contendo nove linhas e duas colunas, sendo de nomes de pessoas aleatórias e suas respectivas idades, trabalhando assim, a entrada de dados, numéricos (idade) e textos (nomes).
+                </p>
+                
+                <p>
+                    Para inserir os dados basta clicar na célula e digitar a informação requerida.
+                </p>
+                <ol class = "lista">
+                    <li class = "objetosListas"> Preto: tabela;</li>
+                    <li class = "objetosListas"> Vermelho: nas duas colunas da primeira linha foi colocado os "títulos", nomes e idades;</li>
+                    <li class = "objetosListas"> Amarelo: nas linhas da primeira coluna foi colocado os nomes das pessoas </li>
+                    <li class = "objetosListas"> Verde: nas linhas da segunda coluna foi colocado as idades </li>
+                </ol>
+            </div>
+            
+            <div class = "imagens">
+                <img src = "imagens/nomexidade.jpg">
+            </div>
+        </div>
+        <!-- Seção Fórmulas Básicas -->
+        <div id= "criacaoFormulasBasicas">
+            <div class= "formulasBasicas">
+                <h2>
+                    Criando Fórmulas Básicas
+                </h2>
+                <p>
+                    Iremos agora aplicar nessa mesma tabela uma fórmula para que se encontre a média aritmética das idades, lembrando, para se encontrar uma média aritmética de qualquer conjunto de números, basta somar todos os números disponíveis e o resultado, dividir pela quantidade de números desse conjunto.
+                </p>
+                <p>
+                    Para aplicar qualquer fórmula no Excel, o primeiro passo é encontrar uma célula livre e para o Excel entender que estamos começando uma fórmula, devemos usar o sinal de igual (=).
+                </p>
+                <p>
+                    Após o sinal de igual, iremos selecionar as células que serão somadas e o sinal de igual entre elas, agora só apertar o “enter” do teclado e a soma das idades será feita. 
+                </p>
+                <ol class = "lista">
+                    <li class = "objetosListas"> Amarelo: fórmula criada dentro da célula selecionada; </li>
+                    <li class = "objetosListas"> Preto: células das idades que serão somadas; </li>
+                    <li class = "objetosListas"> Vermelho: resultado da soma das idades.</li>
+                </ol>
+            </div>
+            <div class = "imagens">
+                <img src = "imagens/soma.jpg">
+            </div>
+            <div id = "formulasBasicas2">
+                <p>
+                    Agora vamos dividir o resultado obtido pelo número de idades disponíveis, o resultado desse cálculo será a média aritmética.
+                </p>
+                <ol class = "lista">
+                    <li class = "objetosListas"> Vermelho: fórmula criada dentro da célula para encontrar a média aritmética; </li>
+                    <li class = "objetosListas"> Preto: resultado encontrado através da fórmula, a média aritmética entre as idades </li>
+                </ol>
+            </div>
+            <div class = "imagens">
+                <img src= "imagens/media.jpg">
+            </div>
+        </div>
+        <!-- Seção Funções -->
+        <div id = "funcoes">
+            <div id = "criandoFuncoes">
+                <h2>
+                    Criando Funções
+                </h2>
+                <p>
+                    No Excel existem diversas funções para cálculos mais complexos ou que necessitam de muitos valores, e que ficaria difícil selecionar esses valores um por um, igual feito no último exemplo.
+                </p>
+                
+                <p>
+                    A função MÉDIA é uma função do tipo aritmética, o retorno dela é exatamente a média aritmética entre números selecionados.
+                </p>
+                <p>
+                    Vamos aplicar essa função ao invés da fórmula que criamos no exemplo anterior.
+                </p>
+                <ol class = "lista">
+                    <li class = "objetosListas"> Amarelo: função MÉDIA criada dentro da célula, a função MÉDIA recebe os valores que escolhidos para o cálculo, no caso, célula B2 até a célula B9; </li>
+                    <li class = "objetosListas"> Vermelho: os valores que a função MÉDIA irá receber; </li>
+                    <li class = "objetosListas"> Preto: resultado calculado pela função MÉDIA. </li>
+                </ol>    
+            </div>
+            <div class = "imagens">
+                <img src= "imagens/mediafuncao.jpg">
+            </div>
+            <div id="funcoes2">
+                <p>
+                    Agora suponhamos que queremos entre as idades, as pessoas que tenham idade igual ou superior que sessenta e um (61) anos, nesse caso, usaremos a função SE.
+                </p>
+                <p>
+                    A função SE é do tipo condicional, sua operação é feita através de uma condição, se essa condição for verdadeira, ela mostrará um resultado, se a condição for falsa, ela mostrará outro resultado diferente.
+                </p>
+                <p>
+                    Função SE recebe o teste lógico, o valor se verdadeiro e o valor se falso.
+                </p>
+                <p>
+                    No caso proposto, utilizaremos duas funções SE, uma dentro da outra.
+                </p>
+                <p>
+                    O primeiro teste lógico será, a idade de “Marie Curie” é maior que 61 anos (B2>61), se esse teste se confirmar, o valor verdadeiro exibirá “Maior que 61 anos de Idade”, se o teste for falso, iremos introduzir outra função SE, o segundo teste lógico dessa função será, a idade de “Marie Curie” é igual a 61 anos (B2=61), se esse segundo teste se confirmar, o valor verdadeiro exibirá “Igual a 61 anos de idade”, se o teste for falso, o valor falso exibirá “Menor que 61 anos de idade”, aplicaremos essa função para todas as idades disponíveis dessa tabela.
+                </p>
+                <ol class = "lista">
+                    <li class = "objetosListas"> Vermelho: resultado da função SE para cada idade disponível na tabela; </li>
+                    <li class = "objetosListas"> Preto: idades disponíveis da tabela. </li>
+                </ol>    
+            </div>
+            <div class = "imagens">
+                <img src= "imagens/sefuncao.jpg">
+            </div>
+        </div>
+        <!-- Seção Gráficos -->
+        <div id = "graficos">
+            <div id = "criandoGraficos">
+                <h2>
+                    Criando Gráficos
+                </h2>
+                <p>
+                    O Excel além de fazer cálculos complexos com os dados fornecidos, também apresenta esses dados de diversas formas, uma delas é através de gráficos.
+                </p>
+                <p>
+                    Para criarmos um gráfico, iremos usar a tabela dos exemplos anteriores.
+                </p>
+                <p>
+                    Nessa tabela tem duas colunas, nomes de pessoas e suas idades, o gráfico que faremos mostrará as idades.
+                </p>
+                <p>
+                    Existem diversos gráficos, o que usaremos será o de “Colunas Agrupadas”.
+                </p>
+                <p>
+                    Para criarmos esse gráfico, iremos selecionar toda a tabela, na faixa de opções de ferramentas, iremos na opção “INSERIR”, nessa aba iremos selecionar a opção “Inserir Gráficos de Colunas” e por último “Colunas Agrupadas”.
+                </p>
+                
+                <ol class = "lista">
+                    <li class = "objetosListas"> Amarelo: faixa de opções de ferramentas, opção “INSERIR”; </li>
+                    <li class = "objetosListas"> Preto: tabela de dados que o gráfico será feito, tabela selecionada; </li>
+                    <li class = "objetosListas"> Vermelho: gráfico “IDADES”;</li>
+                </ol>    
+            </div>
+            <div class = "imagens">
+                <img src= "imagens/graficos.jpg">
+            </div>
+        </div>
+        <!-- Seção Rodapé -->
+        <div id = "rodape">
+            <p id = "desenvolvedores">
+                Desenvolvedores: Lucas Alves Mendes, Luiz Gustavo Cruz Bastos, Luiz Gustavo Silva de Matos, Rogério Bastos Silva.
+                
+                <br>Técnico em Desenvolvimento de Sistemas
+                
+                <br>Senai "Professor Vicente Amato" - Jandira
+            </p>
+        </div>
+    </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+

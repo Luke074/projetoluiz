@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Seção do Header */
+#header{
+    width:100%;
+    height:200px;
+    background-color: #000000;
+}
+
+h1{
+    font-family: arial;
+    font-size: 28px;
+    color: #ffffff;
+    width: 1400px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    width:1400px;
+    height:170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuItens1, #menuItens2, #menuItens3, #menuItens4, #menuItens5, #menuItens6 {
+    width:228px;
+    height:100px;
+    float: left;
+    margin-top: 35px;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: none;
+    font-family: arial;
+    font-size: 23px;
+    list-style: none;
+    color: #ffffff;
+}
+
+#menuItens1, #menuItens5, #menuItens6{
+    padding-top:35px;
+}
+
+#menuitens2{
+    padding-top:10px;
+}
+
+
+#menuItens1:hover, #menuItens2:hover, #menuItens3:hover, #menuItens4:hover, #menuItens5:hover, #menuItens6:hover {
+    border-radius:40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#menuItens1:hover{
+    background-image: url(../imagens/home.jpg);
+
+}
+
+#menuItens2:hover{
+    background-image: url(../imagens/apple.jpg);
+}
+
+#menuItens3:hover{
+    background-image: url(../imagens/microsoft.jpg); 
+}
+
+
+#menuItens4:hover{
+    background-image: url(../imagens/linux.jpg); 
+}
+
+#menuItens5:hover{
+    background-image: url(../imagens/word.jpg);
+}
+
+#menuItens6:hover{
+    background-image: url(../imagens/excel.jpg);
+}
+
+
+/* Seção Introdução à Planilhas Eletrônicas */
+
+#conteudoIntroducao{
+    width: 100%;
+    height: 800px;
+}
+
+#introducao{
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../imagens/planilha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h2{
+    font-size: 32px;
+    font-family: timesNewRoman;
+    text-transform: uppercase;
+    width: 1400px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+p{
+    font-family: timesNewRoman;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.lista, .objetosListas{
+    font-family: timesNewRoman;
+    font-size: 30px;
+    text-align: left;
+    color: #000000;
+    line-height: 1.5;
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 25px;
+}
+
+/* Seção Criação de Planilhas */
+
+#criacao, #entrada, #criacaoFormulasBasicas, #funcoes, #graficos{
+    width: 100%;
+    height: 1100px;
+}
+
+
+#criacaoPlanilhas, #entradaDados, .formulasBasicas, #formulasBasicas2, #criandoFuncoes, #funcoes2, #criandoGraficos{
+    width: 1400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+
+.imagens{
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagens img{
+    width: inherit;
+    height: inherit;
+}
+
+/* Seção Entrada de Dados */
+#entrada{
+
+    height: 1135px;
+}
+
+#entradaDados{
+    
+    height: 435px;
+}
+
+/* Seção Fórmulas Básicas */
+#criacaoFormulasBasicas{
+    
+    height: 2130px;
+}
+
+.formulasBasicas{
+   
+    height: 530px;
+}
+
+#formulasBasicas2{
+    
+    height: 200px;
+}
+
+/* Seção Funções */
+#funcoes{
+  
+    height: 2510px;
+}
+
+#criandoFuncoes{
+
+    height: 480px;
+}
+
+#funcoes2{
+ 
+    height: 630px;
+}
+
+/* Seção Funções */
+#graficos{
+    height: 1300px;
+}
+
+#criandoGraficos{
+    height: 585px;
+}
+
+/* Seção Rodapé */
+#rodape{
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+}
+
+#desenvolvedores{
+    font-family: arial;
+    font-size: 21px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.5;
+    width: 1400px;
+    height: inherit;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Seção Link*/
+
+.link:active{
+    color: #ffffff;
+}
+.link:visited{
+    color: #ffffff;
+}
+.link:link{
+    color: #ffffff;
+}
+.link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
